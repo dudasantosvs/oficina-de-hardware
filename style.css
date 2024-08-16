@@ -1,0 +1,101 @@
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    background-color: #f1f1e7; /* Bege pastel */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    width: 100%;
+    background-color: #D8BFD8; /* Roxo pastel */
+    padding: 20px 0;
+    text-align: center;
+    color: #4B0082; /* Roxo escuro */
+}
+
+header h1 {
+    font-size: 3rem; /* Aumentar o tamanho do título */
+    margin: 0;
+    color: #4B0082; /* Roxo escuro */
+    font-weight: 600; /* Fonte em negrito */
+}
+
+/* Estilo do Container Principal */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #984ad0; /* Bege pastel */
+    padding: 50px; /* Aumentar o padding */
+    border-radius: 15px; /* Aumentar o arredondamento */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Aumentar o sombreado */
+    margin-top: 40px;
+    width: 95%; /* Ocupar mais espaço da página */
+    max-width: 1400px; /* Limite máximo da largura */
+    border: 2px solid #D8BFD8; /* Aumentar a borda */
+}
+
+/* Estilo do Container de Texto */
+.text-container {
+    flex: 3; /* Aumentar a proporção do texto */
+    padding-right: 50px; /* Aumentar o espaçamento à direita */
+}
+
+h2 {
+    text-align: left; /* Alinhar à esquerda */
+    margin-bottom: 25px;
+    font-size: 2rem; /* Aumentar o tamanho do subtítulo */
+    color: #f5eff9; /* Roxo escuro */
+    font-weight: 600; /* Negrito para os subtítulos */
+}
+
+p {
+    color: #eae3ef; /* Roxo escuro */
+    font-size: 1.2rem; /* Aumentar o tamanho do texto */
+    line-height: 1.8; /* Aumentar o espaçamento entre linhas */
+    margin-bottom: 20px;
+    text-align: justify;
+    font-weight: 300; /* Peso mais leve para o corpo do texto */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 18px; /* Aumentar o padding do botão */
+    background-color: #D8BFD8; /* Roxo pastel */
+    color: #4B0082; /* Roxo escuro */
+    border: none;
+    border-radius: 8px; /* Aumentar o arredondamento do botão */
+    cursor: pointer;
+    font-size: 1.3rem; /* Aumentar o tamanho da fonte do botão */
+    margin-top: 25px;
+    font-weight: 600; /* Negrito no botão */
+}
+
+button:hover {
+    background-color: #C3A9D8; /* Roxo pastel mais escuro */
+}
+
+/* Estilo do Container da Imagem */
+.image-container {
+    flex: 2; /* Aumentar a proporção da imagem */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container img {
+    max-width: 90%; /* Aumentar o tamanho máximo da imagem */
+    height: auto;
+    border-radius: 15px; /* Aumentar o arredondamento da imagem */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Aumentar o sombreado da imagem */
+}

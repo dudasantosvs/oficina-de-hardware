@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agendamento de Horários</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Oficinas de Hardware</h1>
+    </header>
+    <div class="container">
+        <h1>Agende seu horário</h1>
+        <form id="scheduleForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="class">Turma:</label>
+            <select id="class" name="class" required>
+                <option value="">Selecione uma turma</option>
+                <option value="tecinf">Curso Técnico de Nível Médio em Informática</option>
+                <option value="tecmct">Curso Técnico de Nível Médio em Mecatrônica</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Horário:</label>
+            <input type="time" id="time" name="time" required>
+           
+
+            <button type="submit">Agendar</button>
+        </form>
+        <div id="message"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

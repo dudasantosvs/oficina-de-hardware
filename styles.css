@@ -1,0 +1,100 @@
+/* Importar a Fonte do Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* Estilos Globais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    background-color: #f4f4e8; /* Bege pastel */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Estilo do Cabeçalho */
+header {
+    width: 100%;
+    background-color: #D8BFD8; /* Roxo pastel */
+    padding: 20px 0;
+    text-align: center;
+    color: #4B0082; /* Roxo escuro */
+}
+
+header h1 {
+    font-size: 3rem; /* Aumentar o tamanho do título */
+    margin: 0;
+    color: #4B0082; /* Roxo escuro */
+    font-weight: 600; /* Fonte em negrito */
+}
+
+/* Estilo do Conteúdo Principal */
+.container {
+    background-color: #f6f6ea; /* Bege pastel */
+    padding: 30px; /* Aumentar o padding */
+    border-radius: 15px; /* Aumentar o arredondamento */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15); /* Aumentar o sombreado */
+    margin-top: 40px; /* Aumentar a margem superior */
+    width: 100%;
+    max-width: 600px; /* Aumentar o máximo da largura */
+    border: 2px solid #D8BFD8; /* Aumentar a borda */
+}
+
+/* Estilo do Subtítulo */
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #4B0082; /* Roxo escuro */
+    font-size: 2rem; /* Aumentar o tamanho do subtítulo */
+    font-weight: 600; /* Negrito para o subtítulo */
+}
+
+/* Estilo do Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 10px; /* Aumentar a margem inferior */
+    font-weight: 600; /* Negrito para os rótulos */
+    color: #4B0082; /* Roxo escuro */
+    font-size: 1.1rem; /* Aumentar o tamanho da fonte dos rótulos */
+}
+
+input, select {
+    margin-bottom: 20px; /* Aumentar a margem inferior */
+    padding: 12px; /* Aumentar o padding */
+    border: 1px solid #ccc;
+    border-radius: 8px; /* Aumentar o arredondamento */
+    background-color: #F0E6FA; /* Roxo pastel claro */
+    color: #4B0082; /* Roxo escuro */
+    font-size: 1rem; /* Ajustar o tamanho da fonte */
+}
+
+button {
+    padding: 15px; /* Aumentar o padding */
+    background-color: #D8BFD8; /* Roxo pastel */
+    color: #4B0082; /* Roxo escuro */
+    border: none;
+    border-radius: 8px; /* Aumentar o arredondamento */
+    cursor: pointer;
+    font-size: 1.2rem; /* Aumentar o tamanho da fonte do botão */
+    font-weight: 600; /* Negrito no botão */
+}
+
+button:hover {
+    background-color: #C3A9D8; /* Roxo pastel mais escuro */
+}
+
+/* Mensagem de Confirmação/Erro */
+#message {
+    margin-top: 20px;
+    text-align: center;
+    color: #4B0082; /* Roxo escuro */
+    font-size: 1.1rem; /* Aumentar o tamanho da fonte */
+}
